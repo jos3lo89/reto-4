@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@200&display=swap");
+
+* {
+	padding: 0;
+	margin: 0;
+	font-family: "Outfit", sans-serif;
+}
+
+body {
+	background: #0d1a2d;
+}
+
+.main-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.container {
+	background: #15273f;
+	display: flex;
+	flex-direction: column;
+	border-radius: 15px;
+	justify-content: center;
+	align-items: center;
+	padding: 20px 20px;
+	width: 300px;
+}
+
+.caja-1 img {
+	width: 260px;
+	height: auto;
+	border-radius: 15px;
+}
+
+.foto img {
+	width: 50px;
+	height: auto;
+	border-radius: 50%;
+}
+
+.text {
+	margin: 20px;
+}
+
+.text span {
+	color: #fff;
+	font-size: 1.4rem;
+	/* font-family: sans-serif; */
+	font-weight: bold;
+}
+.text p {
+	color: #fff;
+	margin-top: 7px;
+}
+
+.price-toime {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	/* margin: 0 0px; */
+}
+.price-toime p {
+	color: #39cad0;
+}
+
+.price-toime span {
+	color: #94b1d6;
+}
+
+.creator {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+	/* margin: 20px 0; */
+}
+
+.creator span {
+	color: #849dbe;
+}
+
+.creator p {
+	color: #fff;
+}
+
+.raya hr {
+	/* border: none; */
+	width: 290px;
+	/* border-top: 1px solid #ffffff; */
+	height: 1px;
+	margin: 10px 0;
+	padding: 0;
+	background-color: #849dbe;
+}
